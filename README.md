@@ -1,6 +1,6 @@
 # winston-firestore
 
-Store winston logs into Firestore
+A Winston transport to allow sending logs into Firebase Firestore
 
 ## Usage
 
@@ -58,6 +58,7 @@ import { FirestoreTransport } from 'winston-firestore';
         parentCollectionName: '<collection>',
         parentDocumentId: '<doucment>',
         collectionName: '<name of the logs collection>',
+        ...other transport options...
       }),
       ...,
     ],
