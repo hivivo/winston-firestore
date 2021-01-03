@@ -27,7 +27,9 @@ export class FirestoreTransport extends TransportStream {
 
     this.options = options;
 
-    firebase.initializeApp(this.options.firebaseConfig);
+    if (!firebase.apps.length) {
+      firebase.initializeApp(this.options.firebaseConfig);
+    }
     this.store = firebase.firestore();
   }
 

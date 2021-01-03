@@ -68,6 +68,9 @@ import { FirestoreTransport } from 'winston-firestore';
 
 Use `firebaseConfig` from the previous step.
 
+> Looks like Firebase only requires `projectId`, so if you don't want to configure so many values, 
+> you can try just passing `projectId` in, or at most with `storageBucket`.
+
 Now we need to configure three necessary variables to make it work.
 
 Our transport will push any log into a sub collection of a specified firestore document.
