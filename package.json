@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "winston firestore transport",
   "main": "dist/index.js",
-  "repository": "https://github.com/mcbotorg/winston-firestore",
+  "repository": "https://github.com/hivivo/winston-firestore",
   "author": "Vivo Xu <vivo@fancyber.com>",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "firebase": "^8.2.1",
-    "rimraf": "^3.0.2",
     "winston-transport": "^4.4.0"
   },
   "devDependencies": {
@@ -30,6 +29,7 @@
     "jest": "^26.6.3",
     "logform": "^2.2.0",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^26.4.4",
     "ts-node": "^9.1.1",
     "tsc-watch": "^4.2.9",
