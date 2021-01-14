@@ -1,6 +1,6 @@
 {
   "name": "winston-firestore",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "winston firestore transport",
   "main": "dist/index.js",
   "repository": "https://github.com/hivivo/winston-firestore",
@@ -13,7 +13,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "release": "yarn build && yarn publish ./dist"
+    "release": "yarn build && yarn publish"
   },
   "dependencies": {
     "firebase": "^8.2.2",
