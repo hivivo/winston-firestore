@@ -12,7 +12,8 @@
     "start": "tsc-watch --onSuccess \"node ./dist/index.js\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage",
+    "release": "yarn build && yarn publish ./dist"
   },
   "dependencies": {
     "firebase": "^8.2.2",
