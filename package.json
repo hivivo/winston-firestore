@@ -1,8 +1,11 @@
 {
   "name": "winston-firestore",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "winston firestore transport",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/hivivo/winston-firestore",
   "author": "Vivo Xu <vivo@fancyber.com>",
   "license": "MIT",
