@@ -19,7 +19,7 @@
     "release": "yarn build && yarn publish"
   },
   "dependencies": {
-    "firebase": "^8.2.2",
+    "firebase": "^9.6.2",
     "winston-transport": "^4.4.0"
   },
   "devDependencies": {
